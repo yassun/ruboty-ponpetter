@@ -6,7 +6,7 @@ module Ruboty
       on /ponpetter/, name: 'ponpetter', description: 'PonPonPain.'
 
       def ponpetter(message)
-        Ruboty::Ponpetter::Actions::Ponpetter.new.get
+        Ruboty::Ponpetter::Actions::Ponpetter.new(message).get
       end
     end
   end
