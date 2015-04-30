@@ -1,6 +1,6 @@
 # Ruboty::Ponpetter
 
-TODO: Write a gem description
+Ruboty handler to show today ponpe count.
 
 ## Installation
 
@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+@ruboty ponpetter
+只今のポンペ数は17174人です。
+
+```
 
 ## Contributing
 
